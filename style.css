@@ -17,11 +17,11 @@
         }
 
         header{
-            width: 100vw;
+            width: 99vw;
         }
 
         .topline{
-            width: 100vw;
+            width: 99vw;
             height: 1.25vw;
             background-color: #007042;
         }
@@ -267,7 +267,7 @@
         }
 
         footer{
-            width: 100vw;
+            width: 99vw;
             height: 13.13vw;
             background-color: #2C2C2C;
             position: relative;
