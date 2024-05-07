@@ -1,0 +1,274 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css");
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #4F4F4F;
+            font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+        }
+
+        body{
+            background-color: #FCFAF6;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        header{
+            width: 100vw;
+        }
+
+        .topline{
+            width: 100vw;
+            height: 1.25vw;
+            background-color: #007042;
+        }
+
+        .colormodeCon{
+            width: 62.5vw;
+            margin: 1.46vw auto 0.625vw auto;
+        }
+
+        .colormode{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .colormode img{
+            width: 1.67vw;
+            height: 1.67vw;
+        }
+
+        .logo{
+            display: block;
+            text-align: center;
+            margin-bottom: 5vw;
+        }
+
+        .logo img{
+            width: 16.35vw;
+        }
+
+        .popupCon{
+            width: 62.5vw;
+            margin: auto;
+        }
+
+        .popup{
+            width: 18.75vw;
+            height: 13.02vw;
+            background-color: white;
+            border-radius: 0.83vw;
+            box-shadow: 0px 0px 1vw 0px rgb(0,0,0,0.05);
+            border: 0.5px solid #E2E2E2;
+            position: absolute;
+            top: 5.42vw;
+            right: 18.2vw;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease, visibility 0.3s;
+        }
+
+        .popup.show{
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .popupTitle{
+            font-weight: 600;
+            font-size: 1.04vw;
+            margin: 1.88vw 0 0 1.88vw;
+        }
+
+        .popupXbtn{
+            background-color: white;
+            border: none;
+            font-size: 1.46vw;
+            font-weight: 600;
+            margin-left: 16.3vw;
+            position: absolute;
+            top: 1.04vw;
+            color: #B0B0B0;
+        }
+
+        .popupXbtn:hover{
+            color: #4F4F4F;
+            transition: all 0.3s ease;
+        }
+
+        .colorControlR{
+            margin: 1.67vw 0 1.25vw 1.88vw;
+        }
+
+        .colorControlG{
+            margin: 0 0 1.25vw 1.88vw;
+        }
+
+        .colorControlB{
+            margin: 0 0 1.25vw 1.88vw;
+        }
+
+        .controlTitle{
+            margin-right: 0.63vw;
+            font-size: 0.83vw;
+            font-weight: 600;
+        }
+
+        .red{
+            accent-color: #4F4F4F;
+            vertical-align: middle;
+            width: 13vw;
+        }
+
+        .green{
+            accent-color: #4F4F4F;
+            vertical-align: middle;
+            width: 13vw;
+        }
+
+        .blue{
+            accent-color: #4F4F4F;
+            vertical-align: middle;
+            width: 13vw;
+        }
+
+        .container{
+            width: 62.5vw;
+            margin: auto;
+        }
+
+        .categoryTitle{
+            font-size: 1.46vw;
+            margin-bottom: 1.04vw;
+            font-weight: 700;
+        }
+
+        .category{
+            width: 62.5vw;
+            height: 12.03vw;
+            margin: auto;
+            background-color: white;
+            border: 0.5px solid #B0B0B0;
+            border-radius: 6px;
+            margin-bottom: 2.5vw;
+        }
+
+        .categorySubtitle{
+            font-size: 1.04vw;
+            font-weight: 700;
+            padding: 1.67vw 0 1.46vw 2.08vw;
+        }
+
+        .line{
+            width: 58.75vw;
+            border-bottom: 0.5px solid #CECECE;
+            margin: auto;
+            margin-bottom: 1.46vw;
+        }
+
+        .categoryBtn{
+            margin-left: 2.08vw;
+            display: flex;
+            margin-bottom: 1.25vw;
+        }
+
+        .left{
+            width: 8.33vw;
+            height: 1.88vw;
+            background-color: #007042;
+            color: white;
+            font-size: 0.83vw;
+            font-weight: 600;
+            text-align: center;
+            line-height: 1.88vw;
+            border-radius: 0.21vw;
+            margin-right: 0.63vw;
+        }
+
+        .right{
+            width: 8.33vw;
+            height: 1.88vw;
+            background-color: #EFEFEF;
+            font-size: 0.83vw;
+            font-weight: 600;
+            text-align: center;
+            line-height: 1.88vw;
+            border-radius: 0.21vw;
+        }
+
+        .right:hover{
+            background-color: #CECECE;
+            transition: all 0.2s ease;
+            color: white;
+        }
+
+        ul{
+            display: flex;
+            margin-left: 2.08vw;
+        }
+
+        li{
+            list-style: none;
+            font-size: 0.82vw;
+            font-weight: 400;
+            margin-right: 1.25vw;
+        }
+
+        .categoryList input{
+            accent-color: #4F4F4F;
+        }
+
+        input{
+            vertical-align: middle;
+        }
+
+        .productCon{
+            display: flex;
+        }
+
+        .subTitle{
+            width: 62.5vw;
+            height: 2.71vw;
+            background-color: #F0EEEA;
+            border-radius: 6px;
+            line-height: 2.71vw;
+            font-size: 1.04vw;
+            font-weight: 700;
+            padding-left: 1.46vw;
+            margin-bottom: 1.25vw;
+        }
+
+        .product_img{
+            width: 14.53vw;
+        }
+
+        .product_list{
+            margin-right: 1.46vw;
+            margin-bottom: 2.71vw;
+        }
+
+        .product_list:nth-child(4n){
+            margin: 0;
+        }
+
+        .product_name{
+            text-align: center;
+            margin-top: 0.83vw;
+            font-size: 0.83vw;
+            font-weight: 500;
+        }
+
+        .container{
+            height: auto;
+            min-height: 100%;
+            padding-bottom: 6vw;
+        }
+
+        footer{
+            width: 100vw;
+            height: 13.13vw;
+            background-color: #2C2C2C;
+            position: relative;
+        }

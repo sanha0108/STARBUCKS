@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARBUCKS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="topline"></div>
+
+        <div class="colormodeCon">
+            <a class="colormode" href="#">
+                <img src="https://i.postimg.cc/fbJh1gv2/light-mode-24dp-FILL0-wght400-GRAD0-opsz24.png">
+            </a>
+        </div>
+
+        <a class="logo" href="#">
+            <img src="https://i.postimg.cc/Bv12bmvt/textlogo.png">
+        </a>
+
+        <div class="popupCon">
+            <div class="popup">
+                <p class="popupTitle">main color</p>
+
+                <button class="popupXbtn" type="button">×</button>
+
+                <div class="colorControlR">
+                    <label class="controlTitle">R</label>
+                    <input class="red" type="range" min=0 max=255 step=5>
+                </div>
+            
+                <div class="colorControlG">
+                    <label class="controlTitle">G</label>
+                    <input class="green" type="range" min=0 max=255 step=5>
+                </div>
+            
+                <div class="colorControlB">
+                    <label class="controlTitle">B</label>
+                    <input class="blue" type="range" min=0 max=255 step=5>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <h1 class="categoryTitle">음료</h1>
+
+        <div class="category">
+            <p class="categorySubtitle">분류 보기</p>
+
+            <div class="line"></div>
+
+            <div class="categoryBtn">
+                <a class="left" href="#">카테고리</a>
+                <a class="right" href="#">테마</a>
+            </div>
+
+            <div class="categoryList">
+                <ul>
+                    <li>
+                        <input type="checkbox" id="product_all" name="product_all">
+                        <label for="product_all">전체 상품 보기</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="product_coldbrew" name="product_coldbrew">
+                        <label for="product_coldbrew">콜드브루 커피</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="product_brewed" name="product_brewed">
+                        <label for="product_brewed">브루드 커피</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="product_espresso" name="product_espresso">
+                        <label for="product_espresso">에스프레소</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="product_frappuccino" name="product_frappuccino">
+                        <label for="product_frappuccino">프라푸치노</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 콜드브루 -->
+        <div class="coldbrewCon">
+            <p class="subTitle">콜드브루 커피</p>
+                
+            <div class="productCon">
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2024/04/[9200000004544]_20240423124241716.jpg">
+                        <p class="product_name">씨솔트 카라멜 콜드 브루</p>
+                    </a>
+                </div>
+                        
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000002487]_20210426091745467.jpg">
+                        <p class="product_name">나이트로 바닐라 크림</p>
+                    </a>
+                </div>
+
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000000479]_20210426091843897.jpg">
+                        <p class="product_name">나이트로 콜드 브루</p>
+                    </a>
+                </div>
+
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000002081]_20210415133656839.jpg">
+                        <p class="product_name">돌체 콜드 브루</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 브루드 -->
+        <div class="brewedCon">
+            <p class="subTitle">브루드 커피</p>
+                
+            <div class="productCon">
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[106509]_20210430111852870.jpg">
+                        <p class="product_name">아이스 커피</p>
+                    </a>
+                </div>
+                        
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[2]_20210430111934117.jpg">
+                        <p class="product_name">오늘의 커피</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 에스프레소 -->
+        <div class="espressoCon">
+            <p class="subTitle">에스프레소</p>
+                
+            <div class="productCon">
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2024/03/[9200000005181]_20240326103832835.jpg">
+                        <p class="product_name">아이스 플랫 화이트</p>
+                    </a>
+                </div>
+                        
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2024/03/[9200000005178]_20240326103727795.jpg">
+                        <p class="product_name">플랫 화이트</p>
+                    </a>
+                </div>
+
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[30]_20210415144252244.jpg">
+                        <p class="product_name">에스프레소 콘 파나</p>
+                    </a>
+                </div>
+
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[25]_20210415144211211.jpg">
+                        <p class="product_name">에스프레소 마키아또</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 프라푸치노 -->
+        <div class="frappuccinoCon">
+            <p class="subTitle">프라푸치노</p>
+                
+            <div class="productCon">
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[168007]_20210415144337428.jpg">
+                        <p class="product_name">에스프레소 프라푸치노</p>
+                    </a>
+                </div>
+                        
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[168016]_20210415154152122.jpg">
+                        <p class="product_name">자바 칩 프라푸치노</p>
+                    </a>
+                </div>
+
+                <div class="product_list">
+                    <a class="view" href="#">
+                        <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[168010]_20210415154711116.jpg">
+                        <p class="product_name">카라멜 프라푸치노</p>
+                    </a>
+                </div>
+
+                <div class="product_list">
+                    <a class="view" href="#">
+                    <img class="product_img" src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[168013]_20210415155746379.jpg">
+                    <p class="product_name">화이트 초콜릿 모카 프라푸치노</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="index.js"></script>
+</body>
